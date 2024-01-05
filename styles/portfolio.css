@@ -26,7 +26,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 230px 0 230px;
+    padding: 50px 210px 0 210px;
 }
 
 .nav-title {
@@ -48,4 +48,45 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.banner {
+    padding: 30px 38px 0 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+}
+
+.banner p {
+    width: 585px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
