@@ -239,3 +239,38 @@ header {
     padding-top: 30px;
     padding-bottom: 113px;
 }
+
+/* footer style */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 24px;
+}
+
+.contact {
+    margin-top: 28px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea {
+    width: 417px;
+    padding: 18px 30px;
+    color: #757575;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
